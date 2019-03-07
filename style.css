@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(#999 , #112233);
+}
+header{
+    border-bottom: 1px beige solid;
+}
+
+.appName{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    font-weight: 400;
+    color: aliceblue
+}
+
+section{
+    width: 50%;
+    margin:10% auto;
+}
+.form{
+    background: lightgray;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.inputForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+.location{   
+    border-radius: 0;
+    border:0px;
+    padding:10px;
+    width: 60%;
+}
+.button{
+    border-radius: 0;
+    border: 0px;
+    padding: 10px;
+    width: 60%;
+}
+.resultBlock{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    border-radius: 10px;
+    background: #1143;
+}
+
+.Description{
+    padding: 10px;
+    font-family: 'sans-serif', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+img{
+    padding: 10px;
+    width: 50%;
+    border-radius:20px;
+}
+
