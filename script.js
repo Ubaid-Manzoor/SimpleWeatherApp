@@ -8,7 +8,7 @@ let getUserInput = ()=>{
 let getUrl = (inputValue , isWeather)=>{
     let url;
     if(isWeather)
-        url = `http://api.openweathermap.org/data/2.5/weather?q=${inputValue}&units=metric&APPID=db1009179eb731b93dc7e9166280e38a`;
+        url = `https://api.openweathermap.org/data/2.5/weather?q=${inputValue}&units=metric&APPID=db1009179eb731b93dc7e9166280e38a`;
     else
         url = `https://api.giphy.com/v1/gifs/translate?api_key=9w3lwrwhQJLif1J4M0kKXnXTu4BFg1sX&s=${inputValue}`;
     return url;
